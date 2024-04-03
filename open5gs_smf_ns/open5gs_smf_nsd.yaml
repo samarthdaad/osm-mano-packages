@@ -1,0 +1,22 @@
+nsd:
+  nsd:
+    - description: NS consisting of a single KNF open5gs_smf_knf connected to mgmt network
+      designer: Hassan
+      df:
+        - id: default-df
+          vnf-profile:
+            - id: open5gs_smf_knf
+              virtual-link-connectivity:
+                - constituent-cpd-id:
+                    - constituent-base-element-id: open5gs_smf_knf
+                      constituent-cpd-id: mgmtnet-ext
+                  virtual-link-profile-id: mgmtnet
+              vnfd-id: open5gs_smf_knf
+      id: open5gs_smf_ns
+      name: open5gs_smf_ns
+      version: 1.0.0
+      virtual-link-desc:
+        - id: mgmtnet
+          mgmt-network: true
+      vnfd-id:
+        - open5gs_smf_knf
