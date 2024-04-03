@@ -1,0 +1,18 @@
+vnfd:
+  description: KNF with single KDU using a helm-chart for 5G core open5gs-nrf
+  df:
+    - id: default-df
+  ext-cpd:
+    - id: mgmtnet-ext
+      k8s-cluster-net: mgmtnet
+  id: open5gs_nrf_knf
+  k8s-cluster:
+    nets:
+      - id: mgmtnet
+  kdu:
+    - name: open5gsnrf
+      helm-chart: open5gsnrf/open5gs-nrf
+  mgmt-cp: mgmtnet-ext
+  product-name: open5gs_nrf_knf
+  provider: Hassan
+  version: 1.0.0
