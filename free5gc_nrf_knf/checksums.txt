@@ -1,0 +1,1 @@
+e1c62160747b533ee85013febc511098	free5gc_nrf_knf/free5gc_nrf_vnfd.yaml

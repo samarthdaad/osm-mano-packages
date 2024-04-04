@@ -1,0 +1,1 @@
+0c044394acdc8b88eb4e6c0665c5f7a5	free5gc_nrf_ns/free5gc_nrf_nsd.yaml
