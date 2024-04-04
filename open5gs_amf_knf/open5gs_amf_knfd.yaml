@@ -10,8 +10,8 @@ vnfd:
     nets:
       - id: mgmtnet
   kdu:
-    - name: open5gsamf
-      helm-chart: open5gsamf/open5gs-amf
+    - name: towards5gc
+      helm-chart: towards5gc/free5gc
   mgmt-cp: mgmtnet-ext
   product-name: open5gs_amf_knf
   provider: Hassan
