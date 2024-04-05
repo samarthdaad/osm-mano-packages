@@ -1,3 +1,0 @@
-9c458b3b8e90fec6650caa48d241a249	open5gs_amf_knf/README.md
-690bc887dfd7a86d67697f1d17458121	open5gs_amf_knf/open5gs_amf_knfd.yaml
-3a4799d01502c86f56b0412dc33cf647	open5gs_amf_knf/Scripts/cloud_init/cloud-config.txt

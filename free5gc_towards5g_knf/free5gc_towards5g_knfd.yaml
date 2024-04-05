@@ -1,0 +1,18 @@
+vnfd:
+  description: KNF with single KDU using a helm-chart for 5G core free5gc_towards
+  df:
+    - id: default-df
+  ext-cpd:
+    - id: mgmtnet-ext
+      k8s-cluster-net: mgmtnet
+  id: free5gc_towards_knf
+  k8s-cluster:
+    nets:
+      - id: mgmtnet
+  kdu:
+    - name: towards5gc
+      helm-chart: towards5gc/free5gc
+  mgmt-cp: mgmtnet-ext
+  product-name: free5gc_towards_knf
+  provider: Samarth
+  version: 1.0.0

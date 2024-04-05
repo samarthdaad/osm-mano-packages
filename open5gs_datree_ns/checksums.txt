@@ -1,0 +1,2 @@
+4c6d3954538e604799950a7bdfbd6281	open5gs_datree_ns/open5gs_datree_nsd.yaml
+33db2d3c0b6de29036b9fedadc8c6fcc	open5gs_datree_ns/README.md

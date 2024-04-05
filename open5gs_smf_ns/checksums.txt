@@ -1,2 +1,0 @@
-74fed1fbc2ba648c2a1ca6d1960062d2	open5gs_cp_ns/open5gs_cp_nsd.yaml
-33db2d3c0b6de29036b9fedadc8c6fcc	open5gs_cp_ns/README.md
