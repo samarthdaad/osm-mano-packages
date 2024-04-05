@@ -14,5 +14,5 @@ vnfd:
       helm-chart: open5gscp/open5gs-cp
   mgmt-cp: mgmtnet-ext
   product-name: open5gs_cp_knf
-  provider: Hassan
+  provider: Samarth
   version: 1.0.0

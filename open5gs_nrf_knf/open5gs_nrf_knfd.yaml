@@ -14,5 +14,5 @@ vnfd:
       helm-chart: open5gsnrf/open5gs-nrf
   mgmt-cp: mgmtnet-ext
   product-name: open5gs_nrf_knf
-  provider: Hassan
+  provider: Samarth
   version: 1.0.0

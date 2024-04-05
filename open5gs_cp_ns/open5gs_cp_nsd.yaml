@@ -1,7 +1,7 @@
 nsd:
   nsd:
     - description: NS consisting of a single KNF open5gs_cp_knf connected to mgmt network
-      designer: Hassan
+      designer: Samarth
       df:
         - id: default-df
           vnf-profile:
