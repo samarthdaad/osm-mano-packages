@@ -1,0 +1,22 @@
+nsd:
+  nsd:
+    - description: NS consisting of a single KNF ueransim_datree_knf connected to mgmt network
+      designer: Samarth
+      df:
+        - id: default-df
+          vnf-profile:
+            - id: ueransim_datree_knf
+              virtual-link-connectivity:
+                - constituent-cpd-id:
+                    - constituent-base-element-id: ueransim_datree_knf
+                      constituent-cpd-id: mgmtnet-ext
+                  virtual-link-profile-id: mgmtnet
+              vnfd-id: ueransim_datree_knf
+      id: ueransim_datree_ns
+      name: ueransim_datree_ns
+      version: 1.0.3
+      virtual-link-desc:
+        - id: mgmtnet
+          mgmt-network: true
+      vnfd-id:
+        - ueransim_datree_knf
