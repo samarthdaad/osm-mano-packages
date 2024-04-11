@@ -1,0 +1,23 @@
+nsd:
+  nsd:
+  - description: autoheal_nsd Network Service
+    designer: TATA ELXSI
+    df:
+    - id: default-df
+      vnf-profile:
+      - id: autoheal-basic-1
+        vnfd-id: autoheal_vnfd
+        virtual-link-connectivity:
+        - constituent-cpd-id:
+          - constituent-base-element-id: autoheal-basic-1
+            constituent-cpd-id: vnf-cp0-ext
+          virtual-link-profile-id: mgmt
+    id: autoheal_nsd
+    name: autoheal_nsd
+    version: 1.0
+    virtual-link-desc:
+    - id: mgmt
+      mgmt-network: true
+      #vim-network-name: management
+    vnfd-id:
+    - autoheal_vnfd
