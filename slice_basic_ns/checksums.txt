@@ -1,0 +1,3 @@
+5c407322d4361b1594e897cffc9c6977	slice_basic_ns/README.md
+0e49735ed764f598eff1ae736fb956cd	slice_basic_ns/checksum.txt
+8619cadd0d5f9849c401e7f7127279a0	slice_basic_ns/slice_basic_nsd.yaml

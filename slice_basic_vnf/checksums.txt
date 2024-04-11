@@ -1,0 +1,4 @@
+26f62472e9b7bdc2ca47b5af3ce2c37b	slice_basic_vnf/slice_basic_vnfd.yaml
+6e520d5ea4d901d93b3d867b359a3f01	slice_basic_vnf/README.md
+c6aa06ab7791b4c5323288fa15959f8d	slice_basic_vnf/checksum.txt
+2c0714163bedf21633227ad1dc443c0a	slice_basic_vnf/cloud_init/cloud-config.txt

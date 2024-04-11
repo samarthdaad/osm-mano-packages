@@ -1,0 +1,2 @@
+4848723569dbea5d2e05f04bf24c6a4e	slice_basic_middle_vnf/slice_basic_middle_vnfd.yaml
+eca919ee344b925ad5088824e56afac1	slice_basic_middle_vnf/cloud_init/cloud-config.txt
